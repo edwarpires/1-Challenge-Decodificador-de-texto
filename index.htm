@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        font-size: 48px;
+      }
+    </style>
+</head>
+
+<body>
+
+    <header class="logo">
+        <img class="Logo-A" src="logoAlura.png" alt="Logo Alura">
+        <h1>1º Challenge Oracle ONE Decodificador de Texto</h1>
+        
+    </header>
+
+    <main class="main">
+
+        <section class="texto-inicial">
+
+            <textarea class="input-texto" cols="40" rows="6" placeholder="Digite seu texto"></textarea>
+
+            <div class="orientacao">
+
+                <h6 class="orientacao"><img class="iconeMsg" src="iconeMsg.png" alt="icone mensagem">
+                    Apenas letras minúsculas e sem acento</h6>
+
+            </div>
+
+            <div class="botoes">
+
+                <button class="codificar" onclick="btnCodificar()">Codificar</button>
+    
+                <button class="decodificar" onclick="btnDecodificar()">Decodificar</button>
+
+            </div>
+
+        </section>
+        
+        <section class="msg-saida">
+
+            <textarea class="mensagem" cols="20" rows="10"></textarea> 
+            
+            <button id="btnCopiar" onclick="copiar()">Copiar</button>
+
+            <div class="texto-saida"> 
+
+                <h3>Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto para codificar</p>
+
+            </div>
+
+        </section>    
+
+    </main>
+
+    <div class="footer">
+        
+        <p> Desenvolvido por: Edwar Pires - ONE Oracle Next Education - Turma 3 - 2022</p>
+
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+
+</body>
+
+</html>
+        
